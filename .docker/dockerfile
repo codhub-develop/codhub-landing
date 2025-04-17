@@ -1,0 +1,16 @@
+FROM node:20-alpine
+
+ARG USER_ID=1000
+ARG GROUP_ID=1000
+
+WORKDIR /app
+
+COPY .docker/docker.sh /bin/entrypoint.sh
+
+RUN chmod +x /bin/entrypoint.sh
+
+EXPOSE 5173
+
+RUN apk --no-cache add jq shadow && usermod -u ${USER_ID} node && groupmod -g ${GROUP_ID} node && apk del shadow
+
+ENTRYPOINT ["/bin/sh", "/bin/entrypoint.sh"]
