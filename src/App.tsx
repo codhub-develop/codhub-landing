@@ -1,9 +1,10 @@
-
+import logo from './assets/Logo.svg'
 
 function App() {
   return (
     <>
-      <p className='text-black font-baloo'> Hello</p>
+      <img src={logo} alt="logo" />
+      <p className='font-baloo'>Hello World</p>
     </>
   )
 }
