@@ -12,7 +12,19 @@
   --color-primary-pink: #F472B6;
   --color-primary-purple: #E879F9;
 
-  --font-baloo : 'Baloo2', 'sans serif';
-  --font-body : 'Red Hat Text', 'sans serif';
-  --font-title : 'Red Hat Display', 'sans serif';
+  --font-baloo: "Baloo 2", sans-serif;
+  --font-body: "Red Hat Text", sans-serif;
+  --font-title: "Red Hat Display", sans-serif;
+}
+
+@font {
+  .font-baloo {
+    font-family: var(--font-baloo);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+  .font-title {
+    font-family: var(--font-title);
+  }
 }
