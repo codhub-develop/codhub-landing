@@ -10,7 +10,7 @@ const navItems = [
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray bg-white/90 backdrop-blur-sm">
-      <nav className="px-6 py-4 flex items-center justify-between">
+      <nav className="px-10 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <img src={logo} alt="Codhub.dev logo" />

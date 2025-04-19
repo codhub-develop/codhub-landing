@@ -1,14 +1,21 @@
+import { Navbar } from '../ui/Navbar'
+
 interface MainLayoutProps {
   children: React.ReactNode
   className?: string
+  includeNavbar?: boolean
 }
 
-export function MainLayout({ children, className }: MainLayoutProps) {
+export function MainLayout({ 
+  children, 
+  className, 
+  includeNavbar
+}: MainLayoutProps) {
   return (
-    <div className={`min-h-screen ${className}`}>
+    <div className={`${className}`}>
       <div className="flex">
         {/* Left border */}
-        <div className="w-6 border-r border-gray" />
+        <div className="w-8 border-r border-gray/50" />
         
         {/* Main content */}
         <div className="flex-1 mx-auto">
@@ -16,8 +23,8 @@ export function MainLayout({ children, className }: MainLayoutProps) {
         </div>
 
         {/* Right border */}
-        <div className="w-6 border-l border-gray" />
+        <div className="w-8 border-l border-gray/50" />
       </div>
     </div>
   )
-} 
+}

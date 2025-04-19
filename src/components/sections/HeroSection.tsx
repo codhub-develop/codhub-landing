@@ -1,9 +1,11 @@
 import backgroundLogo from '../../assets/background_logo.svg'
+import { MainLayout } from '../layouts/MainLayout'
 import { Button } from '../ui/Button'
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[calc(100vh-73px)] px-6">
+    <MainLayout className="bg-background">
+    <section className="relative min-h-[calc(100vh-73px)] px-10">
       {/* Background Logo */}
       <div className="absolute inset-0 flex justify-center">
         <img 
@@ -13,11 +15,10 @@ export function HeroSection() {
           aria-hidden="true"
         />
       </div>
-      
       {/* Content */}
       <div className="relative z-10 mx-auto pt-32 text-center">
         {/* Tag */}
-        <span className="px-2 py-1 font-medium text-xs bg-black text-white rounded-full">WE CAN HELP YOU</span>
+        <span className="px-2 py-1 font-medium text-xs bg-foreground text-white rounded-full">WE CAN HELP YOU</span>
 
         {/* Title */}
         <div className="font-baloo text-8xl space-y-4 my-8">
@@ -36,5 +37,6 @@ export function HeroSection() {
         </Button>
       </div>
     </section>
+    </MainLayout>
   )
 }
