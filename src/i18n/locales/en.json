@@ -1,0 +1,59 @@
+{
+    "nav": {
+      "products": "Products",
+      "services": "Services",
+      "contact": "Contact",
+      "bookCall": "Book A Call"
+    },
+    "hero": {
+      "tag": "WE CAN HELP YOU",
+      "title": "Lorem ipsum dolor sit amet",
+      "subtitle": "Rem ipsa consequatur.",
+      "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo dolorum ut totam sint. Est dignissimos molestiae cum voluptas modi sed ipsa rerum sed ipsa sit modi aut.",
+      "cta": "Book A Call"
+    },
+    "products": {
+      "title": "Our Products",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "codhubMail": {
+        "title": "CodhubMail",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo dolorum ut totam sint. Est dignissimos molestiae cum voluptas modi sed ipsa rerum sed ipsa sit modi aut.",
+        "learnMore": "Learn More"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "development": {
+        "title": "Development From Scratch",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      },
+      "customizing": {
+        "title": "Customizing Of Our Products",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      },
+      "deployment": {
+        "title": "Deployment And Maintnability",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "button": "Get Started"
+    },
+    "footer": {
+      "contact": {
+        "title": "Contact",
+        "contactUs": "Contact Us",
+        "socials": "Socials"
+      },
+      "legal": {
+        "title": "Legal",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "notice": "Legal Notice",
+        "conditions": "Terms and Conditions"
+      },
+      "copyright": "Codhub.dev © 2025"
+    }
+  }

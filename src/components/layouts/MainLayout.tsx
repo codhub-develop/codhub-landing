@@ -1,15 +1,11 @@
-import { Navbar } from '../ui/Navbar'
-
 interface MainLayoutProps {
   children: React.ReactNode
   className?: string
-  includeNavbar?: boolean
 }
 
 export function MainLayout({ 
   children, 
-  className, 
-  includeNavbar
+  className
 }: MainLayoutProps) {
   return (
     <div className={`${className}`}>

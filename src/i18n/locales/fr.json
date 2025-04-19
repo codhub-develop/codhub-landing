@@ -1,0 +1,59 @@
+{
+    "nav": {
+      "products": "Produits",
+      "services": "Services",
+      "contact": "Contact",
+      "bookCall": "Réserver un appel"
+    },
+    "hero": {
+      "tag": "NOUS POUVONS VOUS AIDER",
+      "title": "Lorem ipsum dolor sit amet",
+      "subtitle": "Rem ipsa consequatur.",
+      "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo dolorum ut totam sint. Est dignissimos molestiae cum voluptas modi sed ipsa rerum sed ipsa sit modi aut.",
+      "cta": "Réserver un appel"
+    },
+    "products": {
+      "title": "Nos produits",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "codhubMail": {
+        "title": "CodhubMail",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo dolorum ut totam sint. Est dignissimos molestiae cum voluptas modi sed ipsa rerum sed ipsa sit modi aut.",
+        "learnMore": "En savoir plus"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "development": {
+        "title": "Développement à partir de zéro",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      },
+      "customizing": {
+        "title": "Personnalisation de nos produits",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      },
+      "deployment": {
+        "title": "Déploiement et maintenance",
+        "description": "Lorem ipsum dolor sit amet. Eos illo fuga est explicabo Lorem ipsum dolor sit amet. Eos illo fuga est explicabo"
+      }
+    },
+    "cta": {
+      "title": "Prêt à commencer?",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "button": "Commencer"
+    },
+    "footer": {
+      "contact": {
+        "title": "Contact",
+        "contactUs": "Nous contacter",
+        "socials": "Réseaux sociaux"
+      },
+      "legal": {
+        "title": "Légal",
+        "terms": "Conditions d'utilisation",
+        "privacy": "Politique de confidentialité",
+        "notice": "Mentions légales",
+        "conditions": "Conditions générales"
+      },
+      "copyright": "Codhub.dev © 2025"
+    }
+  }
