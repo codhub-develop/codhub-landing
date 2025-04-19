@@ -4,11 +4,11 @@ import { CTASection } from "./CTASection"
 
 export function FooterSection() {
   return (
-    <MainLayout className="bg-foreground">
-      <section className="bg-foreground py-30 px-10">
-          <CTASection />
-          <BottomSection />
-      </section>
-    </MainLayout>
+    <div className="bg-foreground overflow-hidden">
+      <MainLayout>
+        <CTASection />
+        <BottomSection />
+      </MainLayout>
+    </div>
   )
 }

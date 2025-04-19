@@ -8,15 +8,13 @@ export function ProductSection() {
 
   return (
     <MainLayout className="bg-foreground">
-      <section className="bg-foreground py-30 px-10">
+      <section id="products" className="bg-foreground py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-10">
         <div className="container mx-auto">
-          <div className="flex flex-col border-b border-light-gray/20 pb-12">
-            <div className="flex flex-row justify-between items-end">
-              <h2 className="font-baloo text-4xl text-white mr-auto">{t('products.title')}</h2>
-              <p className="font-body text-medium-gray max-w-[400px] text-right">
-                {t('products.description')}
-              </p>
-            </div>
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="font-baloo text-4xl sm:text-5xl lg:text-6xl text-white mb-6">{t('products.title')}</h2>
+            <p className="font-body text-medium-gray text-lg sm:text-xl">
+              {t('products.description')}
+            </p>
           </div>
           <ProductCard />
         </div>

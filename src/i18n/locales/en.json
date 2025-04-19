@@ -55,5 +55,130 @@
         "conditions": "Terms and Conditions"
       },
       "copyright": "Codhub.dev © 2025"
+    },
+    "legal": {
+      "navigation": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "legalNotice": "Legal Notice",
+      "termsConditions": "Terms & Conditions"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "Welcome to Codhub.dev. By accessing or using our services, you agree to be bound by these Terms of Service. These terms apply to all visitors, users, and others who access or use our services."
+      },
+      "services": {
+        "title": "2. Services",
+        "content": "Codhub.dev provides professional software development services, including:",
+        "development": "Custom software development",
+        "customization": "Product customization and integration",
+        "maintenance": "Maintenance and support services"
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "content": "All intellectual property rights related to our services and products, including software, designs, and documentation, remain the property of Codhub.dev unless otherwise agreed in writing."
+      },
+      "payment": {
+        "title": "4. Payment Terms",
+        "content": "Payment terms are specified in each project agreement. Unless otherwise agreed, payment must be made within 30 days of invoice date."
+      },
+      "liability": {
+        "title": "5. Limitation of Liability",
+        "content": "To the maximum extent permitted by law, Codhub.dev shall not be liable for any indirect, incidental, special, consequential, or punitive damages."
+      },
+      "termination": {
+        "title": "6. Termination",
+        "content": "Either party may terminate the agreement upon written notice if the other party breaches any material term and fails to cure such breach within 30 days."
+      },
+      "governingLaw": {
+        "title": "7. Governing Law",
+        "content": "These terms shall be governed by and construed in accordance with the laws of France."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "dataController": {
+        "title": "1. Data Controller",
+        "content": "Codhub.dev, registered in France, is the data controller responsible for processing your personal data."
+      },
+      "dataCollection": {
+        "title": "2. Data Collection",
+        "content": "We collect and process the following types of data:",
+        "personal": "Personal identification information (name, email address, phone number)",
+        "usage": "Usage data (IP address, browser type, pages visited)",
+        "technical": "Technical data related to our services"
+      },
+      "purposes": {
+        "title": "3. Purposes of Processing",
+        "content": "We process your data to provide our services, communicate with you, improve our offerings, and comply with legal obligations."
+      },
+      "rights": {
+        "title": "4. Your Rights",
+        "content": "Under GDPR, you have the right to:",
+        "access": "Access your personal data",
+        "rectification": "Rectify inaccurate personal data",
+        "erasure": "Request erasure of your personal data",
+        "restriction": "Restrict processing of your personal data",
+        "portability": "Data portability",
+        "objection": "Object to processing"
+      },
+      "security": {
+        "title": "5. Data Security",
+        "content": "We implement appropriate technical and organizational measures to ensure the security of your personal data."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "We use cookies to improve your experience on our website. You can manage your cookie preferences through your browser settings."
+      }
+    },
+    "legalNotice": {
+      "title": "Legal Notice",
+      "publisher": {
+        "title": "Publisher",
+        "name": "Codhub.dev",
+        "address": "Company address in France",
+        "siret": "SIRET number: XXX XXX XXX XXXXX",
+        "tva": "VAT number: FR XX XXXXXXXXX",
+        "capital": "Share capital: €XX,XXX",
+        "email": "Contact: legal@codhub.dev"
+      },
+      "director": {
+        "title": "Publication Director",
+        "name": "Director's name"
+      },
+      "hosting": {
+        "title": "Hosting",
+        "content": "This website is hosted by: [Hosting provider details]"
+      },
+      "credits": {
+        "title": "Credits",
+        "content": "Website developed by Codhub.dev"
+      }
+    },
+    "termsConditions": {
+      "title": "Terms & Conditions",
+      "object": {
+        "title": "1. Object",
+        "content": "These general terms and conditions govern the business relationship between Codhub.dev and its clients for all services provided."
+      },
+      "conditions": {
+        "title": "2. Acceptance of Conditions",
+        "content": "By engaging our services, clients accept these terms and conditions in their entirety."
+      },
+      "prices": {
+        "title": "3. Prices and Payment",
+        "content": "All prices are quoted excluding VAT unless otherwise stated. Payment terms are net 30 days from invoice date unless otherwise agreed."
+      },
+      "warranty": {
+        "title": "4. Warranty",
+        "content": "We provide a 3-month warranty on all developed software against defects in workmanship."
+      },
+      "disputes": {
+        "title": "5. Disputes",
+        "content": "In case of dispute, the parties will attempt to reach an amicable solution. If unsuccessful, French courts will have exclusive jurisdiction."
+      }
     }
   }
+}

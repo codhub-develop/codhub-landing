@@ -55,5 +55,130 @@
         "conditions": "Conditions générales"
       },
       "copyright": "Codhub.dev © 2025"
+    },  
+    "legal": {
+    "navigation": {
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "legalNotice": "Mentions légales",
+      "termsConditions": "Conditions générales"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "Bienvenue sur Codhub.dev. En accédant ou en utilisant nos services, vous acceptez d'être lié par ces conditions d'utilisation. Ces conditions s'appliquent à tous les visiteurs, utilisateurs et autres personnes qui accèdent ou utilisent nos services."
+      },
+      "services": {
+        "title": "2. Services",
+        "content": "Codhub.dev fournit des services professionnels de développement de logiciels, notamment :",
+        "development": "Développement de logiciels sur mesure",
+        "customization": "Personnalisation et intégration de produits",
+        "maintenance": "Services de maintenance et de support"
+      },
+      "intellectualProperty": {
+        "title": "3. Propriété intellectuelle",
+        "content": "Tous les droits de propriété intellectuelle liés à nos services et produits, y compris les logiciels, les conceptions et la documentation, restent la propriété de Codhub.dev sauf accord écrit contraire."
+      },
+      "payment": {
+        "title": "4. Conditions de paiement",
+        "content": "Les conditions de paiement sont spécifiées dans chaque contrat de projet. Sauf accord contraire, le paiement doit être effectué dans les 30 jours suivant la date de facturation."
+      },
+      "liability": {
+        "title": "5. Limitation de responsabilité",
+        "content": "Dans toute la mesure permise par la loi, Codhub.dev ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs."
+      },
+      "termination": {
+        "title": "6. Résiliation",
+        "content": "Chaque partie peut résilier le contrat par notification écrite si l'autre partie viole une condition importante et ne remédie pas à cette violation dans les 30 jours."
+      },
+      "governingLaw": {
+        "title": "7. Droit applicable",
+        "content": "Ces conditions sont régies et interprétées conformément aux lois françaises."
+      }
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "dataController": {
+        "title": "1. Responsable du traitement",
+        "content": "Codhub.dev, enregistrée en France, est le responsable du traitement de vos données personnelles."
+      },
+      "dataCollection": {
+        "title": "2. Collecte des données",
+        "content": "Nous collectons et traitons les types de données suivants :",
+        "personal": "Informations d'identification personnelle (nom, adresse e-mail, numéro de téléphone)",
+        "usage": "Données d'utilisation (adresse IP, type de navigateur, pages visitées)",
+        "technical": "Données techniques liées à nos services"
+      },
+      "purposes": {
+        "title": "3. Finalités du traitement",
+        "content": "Nous traitons vos données pour fournir nos services, communiquer avec vous, améliorer nos offres et respecter nos obligations légales."
+      },
+      "rights": {
+        "title": "4. Vos droits",
+        "content": "Conformément au RGPD, vous avez le droit de :",
+        "access": "Accéder à vos données personnelles",
+        "rectification": "Rectifier les données personnelles inexactes",
+        "erasure": "Demander l'effacement de vos données personnelles",
+        "restriction": "Restreindre le traitement de vos données personnelles",
+        "portability": "Portabilité des données",
+        "objection": "Opposition au traitement"
+      },
+      "security": {
+        "title": "5. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour assurer la sécurité de vos données personnelles."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur."
+      }
+    },
+    "legalNotice": {
+      "title": "Mentions légales",
+      "publisher": {
+        "title": "Éditeur",
+        "name": "Codhub.dev",
+        "address": "Adresse de l'entreprise en France",
+        "siret": "Numéro SIRET : XXX XXX XXX XXXXX",
+        "tva": "Numéro de TVA : FR XX XXXXXXXXX",
+        "capital": "Capital social : XX XXX €",
+        "email": "Contact : legal@codhub.dev"
+      },
+      "director": {
+        "title": "Directeur de la publication",
+        "name": "Nom du directeur"
+      },
+      "hosting": {
+        "title": "Hébergement",
+        "content": "Ce site web est hébergé par : [Détails de l'hébergeur]"
+      },
+      "credits": {
+        "title": "Crédits",
+        "content": "Site web développé par Codhub.dev"
+      }
+    },
+    "termsConditions": {
+      "title": "Conditions générales",
+      "object": {
+        "title": "1. Objet",
+        "content": "Les présentes conditions générales régissent la relation commerciale entre Codhub.dev et ses clients pour tous les services fournis."
+      },
+      "conditions": {
+        "title": "2. Acceptation des conditions",
+        "content": "En faisant appel à nos services, les clients acceptent ces conditions générales dans leur intégralité."
+      },
+      "prices": {
+        "title": "3. Prix et paiement",
+        "content": "Tous les prix sont indiqués hors TVA sauf mention contraire. Les conditions de paiement sont de 30 jours nets à compter de la date de facturation, sauf accord contraire."
+      },
+      "warranty": {
+        "title": "4. Garantie",
+        "content": "Nous offrons une garantie de 3 mois sur tous les logiciels développés contre les défauts de fabrication."
+      },
+      "disputes": {
+        "title": "5. Litiges",
+        "content": "En cas de litige, les parties tenteront de parvenir à une solution amiable. En cas d'échec, les tribunaux français seront seuls compétents."
+      }
     }
   }
+}
