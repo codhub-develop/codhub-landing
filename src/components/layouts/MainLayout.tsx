@@ -1,10 +1,11 @@
 interface MainLayoutProps {
   children: React.ReactNode
+  className?: string
 }
 
-export function MainLayout({ children }: MainLayoutProps) {
+export function MainLayout({ children, className }: MainLayoutProps) {
   return (
-    <div className="min-h-screen bg-white">
+    <div className={`min-h-screen ${className}`}>
       <div className="flex">
         {/* Left border */}
         <div className="w-6 border-r border-gray" />

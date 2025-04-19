@@ -9,7 +9,7 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="relative z-50 w-full border-b border-gray bg-white">
+    <header className="sticky top-0 z-50 w-full border-b border-gray bg-white/90 backdrop-blur-sm">
       <nav className="px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
@@ -35,7 +35,7 @@ export function Navbar() {
           <button className="font-body text-dark-gray hover:text-black transition-colors">
             En
           </button>
-          <Button variant="primary">Book A Call</Button>
+          <Button variant="primary" size="medium">Book A Call</Button>
         </div>
       </nav>
     </header>

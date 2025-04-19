@@ -1,6 +1,5 @@
 import backgroundLogo from '../../assets/background_logo.svg'
 import { Button } from '../ui/Button'
-import GradientBorderButton from '../ui/GradientBorderBtn'
 
 export function HeroSection() {
   return (
@@ -18,25 +17,21 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 mx-auto pt-32 text-center">
         {/* Tag */}
-        <GradientBorderButton />
+        <span className="px-2 py-1 font-medium text-xs bg-black text-white rounded-full">WE CAN HELP YOU</span>
 
         {/* Title */}
-        <h1 className="font-title text-6xl mb-4">
-          Lorem ipsum dolor sit amet.
-        </h1>
-
-        {/* Subtitle with highlight */}
-        <h2 className="font-title text-4xl mb-6">
-          Rem ipsa <span className="bg-neon-yellow px-2">consequatur.</span>
-        </h2>
+        <div className="font-baloo text-8xl space-y-4 my-8">
+          <h1>Lorem ipsum dolor sit amet</h1>
+          <p>Rem ipsa consequatur.</p>
+        </div>
 
         {/* Description */}
-        <p className="font-body text-dark-gray mb-12 max-w-[600px] mx-auto">
+        <p className="font-body text-medium-gray text-lg max-w-[800px] mb-12 mx-auto">
           Lorem ipsum dolor sit amet. Eos illo fuga est explicabo dolorum ut totam sint. Est dignissimos molestiae cum voluptas modi sed ipsa rerum sed ipsa sit modi aut.
         </p>
 
         {/* CTA Button */}
-        <Button variant="gradient">
+        <Button variant="gradient" size="large">
           Book A Call
         </Button>
       </div>

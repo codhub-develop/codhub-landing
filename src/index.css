@@ -13,18 +13,18 @@
   --color-primary-purple: #E879F9;
 
   --font-baloo: "Baloo 2", sans-serif;
-  --font-body: "Red Hat Text", sans-serif;
-  --font-title: "Red Hat Display", sans-serif;
+  --font-text: "Red Hat Text", sans-serif;
+  --font-display: "Red Hat Display", sans-serif;
 }
 
 @font {
   .font-baloo {
     font-family: var(--font-baloo);
   }
-  .font-body {
-    font-family: var(--font-body);
+  .font-text {
+    font-family: var(--font-text);
   }
-  .font-title {
-    font-family: var(--font-title);
+  .font-display {
+    font-family: var(--font-display);
   }
 }
